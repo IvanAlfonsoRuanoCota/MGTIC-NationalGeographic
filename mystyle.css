@@ -38,7 +38,7 @@ header{
     header .borde {
         border-bottom: 2px solid;
         color: yellow;
-        width: 10%;
+        width: 5%;
         margin: 20px auto;
     }
 
@@ -168,15 +168,28 @@ main div p{
     text-transform: uppercase;
     font-size: 12px;
     }
-
+    .logof{
+        border-right: 2px;
+        padding: 10px;
+        height: 30px;
+      
+    }
+    footer{
+        border-top: 0.5px solid;
+        color: rgb(225, 219, 219);
+        text-align: center;
+        height: 30px;
+        
+        
+    }
  @media only screen and (min-width: 700px) {
     
     .container{
-        max-width: 700px;
+        max-width: 500px;
             
         }
   
-        nav .menu{
+    nav .menu{
     display:flex;
     flex-direction: row;
     justify-content: space-between;
@@ -186,6 +199,8 @@ main div p{
      }
     .logo {
     display: block;
+   
+    
     }
     .logo-border{
         display: none;
@@ -197,7 +212,10 @@ main div p{
     .link-news{
         display: block;
      }
-
+     .link-search{
+        display: block;
+        font-size: 20px;
+     }
      
 
 }
